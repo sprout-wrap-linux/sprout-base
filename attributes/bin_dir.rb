@@ -1,1 +1,1 @@
-node.default['bin_dir'] = ::File.join('.local', 'bin')
+node.default['bin_dir'] = ::File.join(node['sprout']['home'], '.local', 'bin')
